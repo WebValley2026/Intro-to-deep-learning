@@ -1,0 +1,20 @@
+[project]
+name = "wv2026-deep-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.0",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "pysteps>=1.21.1",
+    "torch>=2.12.1",
+    "torchinfo>=1.8.0",
+    "torchsummary>=1.5.1",
+    "torchvision>=0.27.1",
+    "tqdm>=4.68.3",
+    "xarray[complete]>=2026.4.0",
+    "zarr>=3.2.1",
+]
